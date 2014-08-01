@@ -2,6 +2,7 @@
 var utils = require("./utils"),
 	jQuery = require("jquery"),
 	dataURL = "/international/listing/retrieveResults?depvar=0&retvar=0&requeststatus=I&SessionKey="+sessionKey,
+//	dataURL = "recs_MC_148.json",
 	_ = require("underscore"),
 	origRecs = [], exposedRecs = [[{segments:[]}]], airLineCodeMap = {}, gotData = false;
 
